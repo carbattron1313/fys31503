@@ -2,8 +2,10 @@
 //  Particle.hpp
 //  
 //
-//  Created by Elena Muñoz Rivas on 18/10/22.
+//  Created by Elena Muñoz Rivas, Alejandro Carballido Mantecón, David Martínez Hernández and Antonio Gómez Garrido.
 //
+//
+// Includes the class Particle with its constructor and the properties of a single Particle.
 
 #ifndef __Particle_hpp__
 #define __Particle_hpp__

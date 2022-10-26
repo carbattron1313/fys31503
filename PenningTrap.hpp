@@ -2,8 +2,10 @@
 //  PenningTrap.hpp
 //
 //
-//  Created by Elena Muñoz Rivas on 18/10/22.
+//  Created by Elena Muñoz Rivas, Alejandro Carballido Mantecón, David Martínez Hernández and Antonio Gómez Garrido.
 //
+//
+// Includes the class PenningTrap with its constructor and the variables needed to run the methods (magnetic field strength, applied potential, the dimension and the the Particle objects in the Penning trap). It contains some member functions as the forces, the electric and magnetic fields, a function to count how many particles are trapped and the Runge-Kutta 4th orther and the forward Eurler methods are defined here.
 
 #ifndef __PenningTrap_hpp__
 #define __PenningTrap_hpp__

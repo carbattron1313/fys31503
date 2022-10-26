@@ -3,7 +3,7 @@
 //
 //  Created by Elena Muñoz Rivas, Alejandro Carballido Mantecón, David Martínez Hernández and Antonio Gómez Garrido.
 //
-//  This program simulates a Penning trap
+//  This program simulates the movement of a single particle and two particles in the Penning trap for a total time using the Euler and RK4 method, obtaining the relative errors and the error convergence rate, the fraction of particles that are still trapped after some time when the potential is time-dependant... among other things.
 //
 
 #include "Particle.hpp"
