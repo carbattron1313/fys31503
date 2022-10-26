@@ -1,6 +1,5 @@
 Study of the orbits of particles inside a Penning trap in C++
 ---------------------------
-
 There are one .cpp file, Particle.cpp and a pair of .hpp files, Particle.hpp and PenningTrap.hpp.
 
 Particle.hpp
@@ -15,9 +14,13 @@ Particle.cpp
 ------------
 Main program where we use the classes. It simulates the movement of a single particle and two particles in the Penning trap for a total time using the Euler and RK4 method, obtaining the relative errors and the error convergence rate, the fraction of particles that are still trapped after some time when the potential is time-dependant... among other things.
 
-
-Build: g++ Particle.cpp -o Paricle.exe 
+Build: g++ Particle.cpp -o Paricle.exe -std=c+11 -larmadillo -O2
 Run: ./Particle.exe
+As we add interactions with particles and extensions (if the potential is time-dependent or not), we have to specified this when the program runs, firstly the interactions and then the extensions:
+0 for no interactions; 0 for no time-dependent
+1 for interactions; 1 for time-dependent
+
+i.e. For no particle interactions and time-dependent; Run: ./Particle.exe 0 1 
 
 PenningTrap.py
 --------------
