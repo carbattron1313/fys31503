@@ -8,7 +8,7 @@ Includes the class Particle with its constructor and the properties of a single 
 
 PenningTrap.hpp
 ---------------
-Includes the class PenningTrap with its constructor and the variables needed to run the methods (magnetic field strength, applied potential, the dimension and the the Particle objects in the Penning trap). It contains some member functions as the forces, the electric and magnetic fields, a function to count how many particles are trapped and the Runge-Kutta 4th orther and the forward Eurler methods are difined here.
+Includes the class PenningTrap with its constructor and the variables needed to run the methods (magnetic field strength, applied potential, the dimension and the the Particle objects in the Penning trap). It contains some member functions as the forces, the electric and magnetic fields, a function to count how many particles are trapped and the Runge-Kutta 4th orther and the forward Eurler methods are defined here.
 
 Particle.cpp
 ------------
